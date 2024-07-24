@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+
+    <!-- 文字コード！-->
+    <meta charset="UTF-8">
+
+    <!-- ブラウザで表示されるタイトル !-->
+    <title>商品ページ</title>
+
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 表示領域をデバイス依存にする、viewportを設定する -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+
+    <!-- スタイルシート -->
+    <link href="css/reset.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- slickのCSS -->
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+  />
+
+
+    <!-- Webフォント読み込み -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+JP:wght@100..900&family=Qwigley&display=swap" rel="stylesheet">
+
+
+
+
+  </head>
+
+
+  <body>
+
+    <!-- ヘッダー -->
+    <header class="header wrapper">
+      <div class="site-title"><a href="index.html"><img src="images/logo.png" alt="ロゴ"></a></div>
+      
+      <nav>
+        <ul class="p-navi">
+          <li><a class="mypage" href="mypage.html"><img src="images/mypage.png" alt="マイページ"></a></li>
+          <li><a class="cart" href="cart.html"><img src="images/cart.png" alt="カート"></a></li>
+          
+        </ul>
+      </nav>
+    
+
+    </header>
+
+  <main>
+    
+
+
+    <!-- item -->
+    <section id="item">
+      <div class="flex inner">
+        <div class="item-img">
+          <img src="images/sweets2.jpg" alt="チーズケーキ">
+        </div>
+        <div class="text">
+          <h2 class="sweets-title">
+            <p class="ja">濃厚チーズケーキ</p>
+            <p class="en">Cheese cake</p>
+          </h2>
+          <p class="item-text">一番人気の濃厚なチーズケーキ。<br>
+            タルト生地も米粉で作っており<br>
+            小麦アレルギーの方でも安心して<br>
+            お召し上がり頂けます。
+          </p>
+          <p class="price">直径8cm   ¥600（税込）</p>
+          <a class="btn" href="cart.html">カートに入れる</a>
+        </div>
+      </div>
+            
+    </section>
+
+    
+
+
+  </main>
+
+    
+
+    <!-- フッターー -->
+    <footer class="footer wrapper">
+      <div class="content">
+        <a class="logo" href="#"><img src="images/logo.png" alt="ロゴ"></a>
+        <p>株式会社 miele</p>
+        <p>tel:090-0000-0000</p>
+      </div>
+      <ul class="footer-nav">
+        <li><a href="#products">PRODUCTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#blog">BLOG</a></li>
+        <li><a href="contact.html" target="_blank">CONTACT</a></li>
+        <li><a href="#">プライバシーポリシー</a></li>
+      </ul>
+      <p class="copy">&copy; patiserie miele</p>
+
+    </footer>
+
+
+    <!-- jQuery/slickの読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+  </body>
+</html>
